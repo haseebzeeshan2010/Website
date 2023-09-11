@@ -20,10 +20,11 @@ body{
     background-position: 800px;
     
 }
-
+/* Background of nav */
 .container{
     padding: 10px 10%;
     background-color: #1B1E30;
+    opacity:0.8;
 }
 
 nav{
@@ -31,11 +32,12 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    ;
+    
 }
 
 .logo{
-    width: 140px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
     color: #fff;
 }
 
@@ -67,4 +69,86 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
     bottom:-6px
+}
+
+
+.top-header {
+    padding-top:60px;
+    padding-left: 50px;
+    font-family: Arial;
+    font-size: 40px;
+    animation: 2s anim-lineUp ease-out;
+}
+
+.top-header2 {
+    padding-top:15px;
+    padding-left: 50px;
+    font-family: Arial;
+    font-size: 40px;
+    animation: 6s anim-lineUp ease-out;
+}
+
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+.highlight{
+    padding-left: 50px;
+    font-size: 42px;
+    font-family: 'MuseoModerno', cursive;
+    color: #fff;
+    animation: 10s anim-lineUp ease-out;
+}
+
+.separate{
+    padding-top: 10px;
+    padding-left:190px;
+    font-family: Arial;
+    font-size: 40px;
+    animation: 7s anim-lineUp ease-out;
+}
+
+.code-highlight{
+    font-family: 'MuseoModerno', cursive;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: inline-block;
+    font-size: 42px;
+    padding-left: 340px;
+    padding-top: 10px;
+    animation:10s anim-lineUp ease-out;
+    text-decoration: underline;
+}
+
+.quote{
+    padding-top: 15%;
 }
