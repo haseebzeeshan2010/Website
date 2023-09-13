@@ -146,7 +146,6 @@ nav ul li a:hover::after{
     padding-left: 340px;
     padding-top: 10px;
     animation:10s anim-lineUp ease-out;
-    text-decoration: underline;
 }
 
 .quote{
