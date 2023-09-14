@@ -111,7 +111,7 @@ nav ul li a:hover::after{
     padding-left: 50px;
     font-size: 42px;
     font-family: 'MuseoModerno', cursive;
-    color: #fff;
+    color: steelblue;
     animation: 10s anim-lineUp ease-out;
 }
 
