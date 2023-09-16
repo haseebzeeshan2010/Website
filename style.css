@@ -151,3 +151,21 @@ nav ul li a:hover::after{
 .quote{
     padding-top: 15%;
 }
+
+
+#about{
+    padding:80px;
+    color:#ababab
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub-title{
+    font: size 60px; 
+    font-weight: 600;
+    color:
+}
