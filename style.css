@@ -73,16 +73,14 @@ nav ul li a:hover::after{
 
 
 .top-header {
-    padding-top:60px;
-    padding-left: 50px;
+    padding: 60px 20px 0 50px;
     font-family: Arial;
     font-size: 40px;
     animation: 2s anim-lineUp ease-out;
 }
 
 .top-header2 {
-    padding-top:15px;
-    padding-left: 50px;
+    padding: 15px 20px 60px 50px;
     font-family: Arial;
     font-size: 40px;
     animation: 6s anim-lineUp ease-out;
@@ -116,8 +114,7 @@ nav ul li a:hover::after{
 }
 
 .separate{
-    padding-top: 10px;
-    padding-left:190px;
+    padding: 10px 20px 60px 190px;
     font-family: Arial;
     font-size: 40px;
     animation: 7s anim-lineUp ease-out;
@@ -150,6 +147,14 @@ nav ul li a:hover::after{
 
 .quote{
     padding-top: 15%;
+}
+
+.container-quote{
+    background-color: #acccde;
+    width:40%;
+    opacity:0.8;
+    border-radius:15px 100px;
+    
 }
 
 /* ----About---- */
